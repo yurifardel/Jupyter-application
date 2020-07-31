@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "json-serve": "^0.1.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
@@ -17,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve:static": "json-server --watch ./src/data/db.json --port 8080",
+    "server": "node ./server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,5 +40,9 @@
   },
   "main": "index.js",
   "author": "yurifardel <yrnascimento@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "eslint": "^7.5.0"
+  }
 }
