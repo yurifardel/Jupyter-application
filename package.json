@@ -16,12 +16,12 @@
     "styled-components": "^5.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node ./server.js",
+    "dev": "concurrently \"set PORT=3000 && react-scripts start \" \"node ./server.js\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve:static": "json-server --watch ./src/data/db.json --port 8080",
-    "server": "node ./server.js"
+    "server:static": "json-server --watch ./src/data/db.json ",
+    "server": "json-server --watch -p 8080 ./db.json"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,6 +43,11 @@
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "eslint": "^7.5.0"
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.8"
   }
 }
