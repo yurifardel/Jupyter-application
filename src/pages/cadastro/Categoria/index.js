@@ -29,7 +29,7 @@ function CadastroCategoria() {
     );
   }
 
-  useEffect(() =>{
+ /* useEffect(() =>{
     if(window.location.href.includes('localhost')){
       const URL = 'http://localhost:8080/categorias';
       fetch(URL).then( async (respostaDoServer) =>{
@@ -42,7 +42,20 @@ function CadastroCategoria() {
           })
           
         }    
-  },[]);
+  },[]);*/
+
+  useEffect(() => {
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://watchflix-app.herokuapp.com/categorias';
+
+    fetch(URL).then(async (respostaDoServidor) =>{
+      const resposta = await respostaDoServidor.json();
+      setCategorias([
+        ...resposta,
+      ]);
+    });
+  }, []);
 
   return (
     <PageDefault>
