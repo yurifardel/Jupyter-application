@@ -1,0 +1,91 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Kendrick Lamar - The Beauty in the Patience (Full EP)",
+      "cor": "",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Baco Exu do Blues"
+    },
+    {
+      "id": 3,
+      "titulo": "J.Cole"
+    }
+   
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Sonder - Too Fast (Official Video)",
+      "url": "https://www.youtube.com/watch?v=flzG7QB0Q18"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Kendrick Lamar - Roots ft. J. Cole",
+      "url": "https://www.youtube.com/watch?v=9ndH4VirdTA"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Kendrick Lamar - M.A.A.D City 2 ft. 2Pac ",
+      "url": "https://www.youtube.com/watch?v=781R5Oyy6C8"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Kendrick Lamar - Ghetto Boy ft. Nipsey Hussle & 2Pac",
+      "url": "https://www.youtube.com/watch?v=j0dlD4q9FWU"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Kendrick Lamar - Reminiscing ft. Pusha T ",
+      "url": "https://www.youtube.com/watch?v=G_0aJiBHbng"
+    },
+    {
+      "id": 1,
+      "categoriaId": 2,
+      "titulo": "BB King",
+      "url": "https://www.youtube.com/watch?v=OqwThfYhfkg"
+    },
+    {
+      "id": 2,
+      "categoriaId": 2,
+      "titulo": "Me Desculpa Jay Z",
+      "url": "https://www.youtube.com/watch?v=PYD7CVqB--s"
+    },
+    {
+      "id": 3,
+      "categoriaId": 2,
+      "titulo": "Flamingos",
+      "url": "https://www.youtube.com/watch?v=B8UsBmUjwTo"
+    },
+    {
+      "id": 4,
+      "categoriaId": 2,
+      "titulo": "Girassóis de Van Gogh",
+      "url": "https://www.youtube.com/watch?v=SeLlX7HhSVY"
+    },
+    {
+      "id": 1,
+      "categoriaId": 3,
+      "titulo": "J. Cole - Lion King On Ic",
+      "url": "https://www.youtube.com/watch?v=MxiSSSa5K2s"
+    },
+    {
+      "id": 2,
+      "categoriaId": 3,
+      "titulo": "J. Cole - The Climb Back",
+      "url": "https://www.youtube.com/watch?v=oVaBgcJwkI4"
+    }
+    
+  ]
+}
