@@ -2,6 +2,7 @@ import React from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 import Slider, {SliderItem} from './components/Slider';
+import Malcom from '../../assets/malcom.png';
 
 function VideoCardGroup({
   ignoreFirstVideo,
@@ -15,7 +16,7 @@ function VideoCardGroup({
     <VideoCardGroupContainer>
       {categoryTitle && (
         <>
-          <Title style={{ backgroundColor: categoryColor || 'red' }}>
+          <Title >
             {categoryTitle}
           </Title>
           {categoryExtraLink && 
@@ -23,8 +24,10 @@ function VideoCardGroup({
               {categoryExtraLink.text}  
             </ExtraLink>
           }
+          
         </>
       )}
+      
       <Slider>
         {videos.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {

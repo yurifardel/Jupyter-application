@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  
 }
 
 :root {
@@ -20,8 +21,11 @@ body {
   padding: 0;
 }
 
+
+
 a {
   color: inherit;
+
 } 
 
 #root {
@@ -31,3 +35,4 @@ a {
   flex-direction: column;
   
 }
+
